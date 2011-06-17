@@ -14,6 +14,18 @@
 		074D44B013AB7B19004B7BCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 074D44AF13AB7B19004B7BCC /* main.m */; };
 		074D44B313AB7B19004B7BCC /* HelloWorldAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 074D44B213AB7B19004B7BCC /* HelloWorldAppDelegate.m */; };
 		074D44B613AB7B19004B7BCC /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 074D44B413AB7B19004B7BCC /* MainWindow.xib */; };
+		074D44C213AB9957004B7BCC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074D44A213AB7B19004B7BCC /* UIKit.framework */; };
+		074D44C313AB9957004B7BCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074D44A413AB7B19004B7BCC /* Foundation.framework */; };
+		074D44F013AB9B98004B7BCC /* OCDSpecDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 074D44DA13AB9B98004B7BCC /* OCDSpecDescription.m */; };
+		074D44F113AB9B98004B7BCC /* OCDSpecDescriptionRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 074D44DC13AB9B98004B7BCC /* OCDSpecDescriptionRunner.m */; };
+		074D44F213AB9B98004B7BCC /* OCDSpecExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 074D44DE13AB9B98004B7BCC /* OCDSpecExample.m */; };
+		074D44F313AB9B98004B7BCC /* OCDSpecExpectation.m in Sources */ = {isa = PBXBuildFile; fileRef = 074D44E013AB9B98004B7BCC /* OCDSpecExpectation.m */; };
+		074D44F413AB9B98004B7BCC /* OCDSpecFail.m in Sources */ = {isa = PBXBuildFile; fileRef = 074D44E213AB9B98004B7BCC /* OCDSpecFail.m */; };
+		074D44F513AB9B98004B7BCC /* OCDSpecOutputter+RedirectOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = 074D44E413AB9B98004B7BCC /* OCDSpecOutputter+RedirectOutput.m */; };
+		074D44F613AB9B98004B7BCC /* OCDSpecOutputter.m in Sources */ = {isa = PBXBuildFile; fileRef = 074D44E613AB9B98004B7BCC /* OCDSpecOutputter.m */; };
+		074D44F713AB9B98004B7BCC /* OCDSpecSharedResults.m in Sources */ = {isa = PBXBuildFile; fileRef = 074D44E813AB9B98004B7BCC /* OCDSpecSharedResults.m */; };
+		074D44F913AB9B98004B7BCC /* RunIPhoneUnitTest.sh in Resources */ = {isa = PBXBuildFile; fileRef = 074D44EB13AB9B98004B7BCC /* RunIPhoneUnitTest.sh */; };
+		074D44FA13AB9B98004B7BCC /* unitTestMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 074D44EC13AB9B98004B7BCC /* unitTestMain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +40,30 @@
 		074D44B113AB7B19004B7BCC /* HelloWorldAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldAppDelegate.h; sourceTree = "<group>"; };
 		074D44B213AB7B19004B7BCC /* HelloWorldAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldAppDelegate.m; sourceTree = "<group>"; };
 		074D44B513AB7B19004B7BCC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		074D44C013AB9957004B7BCC /* Specs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Specs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		074D44D813AB9B98004B7BCC /* OCDSpec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCDSpec.h; sourceTree = "<group>"; };
+		074D44D913AB9B98004B7BCC /* OCDSpecDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCDSpecDescription.h; sourceTree = "<group>"; };
+		074D44DA13AB9B98004B7BCC /* OCDSpecDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCDSpecDescription.m; sourceTree = "<group>"; };
+		074D44DB13AB9B98004B7BCC /* OCDSpecDescriptionRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCDSpecDescriptionRunner.h; sourceTree = "<group>"; };
+		074D44DC13AB9B98004B7BCC /* OCDSpecDescriptionRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCDSpecDescriptionRunner.m; sourceTree = "<group>"; };
+		074D44DD13AB9B98004B7BCC /* OCDSpecExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCDSpecExample.h; sourceTree = "<group>"; };
+		074D44DE13AB9B98004B7BCC /* OCDSpecExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCDSpecExample.m; sourceTree = "<group>"; };
+		074D44DF13AB9B98004B7BCC /* OCDSpecExpectation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCDSpecExpectation.h; sourceTree = "<group>"; };
+		074D44E013AB9B98004B7BCC /* OCDSpecExpectation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCDSpecExpectation.m; sourceTree = "<group>"; };
+		074D44E113AB9B98004B7BCC /* OCDSpecFail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCDSpecFail.h; sourceTree = "<group>"; };
+		074D44E213AB9B98004B7BCC /* OCDSpecFail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCDSpecFail.m; sourceTree = "<group>"; };
+		074D44E313AB9B98004B7BCC /* OCDSpecOutputter+RedirectOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OCDSpecOutputter+RedirectOutput.h"; sourceTree = "<group>"; };
+		074D44E413AB9B98004B7BCC /* OCDSpecOutputter+RedirectOutput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OCDSpecOutputter+RedirectOutput.m"; sourceTree = "<group>"; };
+		074D44E513AB9B98004B7BCC /* OCDSpecOutputter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCDSpecOutputter.h; sourceTree = "<group>"; };
+		074D44E613AB9B98004B7BCC /* OCDSpecOutputter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCDSpecOutputter.m; sourceTree = "<group>"; };
+		074D44E713AB9B98004B7BCC /* OCDSpecSharedResults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCDSpecSharedResults.h; sourceTree = "<group>"; };
+		074D44E813AB9B98004B7BCC /* OCDSpecSharedResults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCDSpecSharedResults.m; sourceTree = "<group>"; };
+		074D44EA13AB9B98004B7BCC /* macMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = macMain.m; sourceTree = "<group>"; };
+		074D44EB13AB9B98004B7BCC /* RunIPhoneUnitTest.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = RunIPhoneUnitTest.sh; sourceTree = "<group>"; };
+		074D44EC13AB9B98004B7BCC /* unitTestMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = unitTestMain.m; sourceTree = "<group>"; };
+		074D44EE13AB9B98004B7BCC /* DescriptionRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DescriptionRunner.h; sourceTree = "<group>"; };
+		074D44EF13AB9B98004B7BCC /* Example.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example.h; sourceTree = "<group>"; };
+		074D44FB13AB9C09004B7BCC /* unitTestMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = unitTestMain.m; path = Programs/unitTestMain.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +77,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		074D44BD13AB9957004B7BCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074D44C213AB9957004B7BCC /* UIKit.framework in Frameworks */,
+				074D44C313AB9957004B7BCC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -48,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				074D44A813AB7B19004B7BCC /* HelloWorld */,
+				074D44C513AB9957004B7BCC /* Specs */,
 				074D44A113AB7B19004B7BCC /* Frameworks */,
 				074D449F13AB7B19004B7BCC /* Products */,
 			);
@@ -57,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				074D449E13AB7B19004B7BCC /* HelloWorld.app */,
+				074D44C013AB9957004B7BCC /* Specs.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -93,6 +140,69 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		074D44C513AB9957004B7BCC /* Specs */ = {
+			isa = PBXGroup;
+			children = (
+				074D44D713AB9B98004B7BCC /* OCDSpec */,
+				074D44C613AB9957004B7BCC /* Supporting Files */,
+			);
+			path = Specs;
+			sourceTree = "<group>";
+		};
+		074D44C613AB9957004B7BCC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		074D44D713AB9B98004B7BCC /* OCDSpec */ = {
+			isa = PBXGroup;
+			children = (
+				074D44FB13AB9C09004B7BCC /* unitTestMain.m */,
+				074D44D813AB9B98004B7BCC /* OCDSpec.h */,
+				074D44D913AB9B98004B7BCC /* OCDSpecDescription.h */,
+				074D44DA13AB9B98004B7BCC /* OCDSpecDescription.m */,
+				074D44DB13AB9B98004B7BCC /* OCDSpecDescriptionRunner.h */,
+				074D44DC13AB9B98004B7BCC /* OCDSpecDescriptionRunner.m */,
+				074D44DD13AB9B98004B7BCC /* OCDSpecExample.h */,
+				074D44DE13AB9B98004B7BCC /* OCDSpecExample.m */,
+				074D44DF13AB9B98004B7BCC /* OCDSpecExpectation.h */,
+				074D44E013AB9B98004B7BCC /* OCDSpecExpectation.m */,
+				074D44E113AB9B98004B7BCC /* OCDSpecFail.h */,
+				074D44E213AB9B98004B7BCC /* OCDSpecFail.m */,
+				074D44E313AB9B98004B7BCC /* OCDSpecOutputter+RedirectOutput.h */,
+				074D44E413AB9B98004B7BCC /* OCDSpecOutputter+RedirectOutput.m */,
+				074D44E513AB9B98004B7BCC /* OCDSpecOutputter.h */,
+				074D44E613AB9B98004B7BCC /* OCDSpecOutputter.m */,
+				074D44E713AB9B98004B7BCC /* OCDSpecSharedResults.h */,
+				074D44E813AB9B98004B7BCC /* OCDSpecSharedResults.m */,
+				074D44E913AB9B98004B7BCC /* Programs */,
+				074D44ED13AB9B98004B7BCC /* Protocols */,
+			);
+			name = OCDSpec;
+			path = OCDSpec/OCDSpec;
+			sourceTree = SOURCE_ROOT;
+		};
+		074D44E913AB9B98004B7BCC /* Programs */ = {
+			isa = PBXGroup;
+			children = (
+				074D44EA13AB9B98004B7BCC /* macMain.m */,
+				074D44EB13AB9B98004B7BCC /* RunIPhoneUnitTest.sh */,
+				074D44EC13AB9B98004B7BCC /* unitTestMain.m */,
+			);
+			path = Programs;
+			sourceTree = "<group>";
+		};
+		074D44ED13AB9B98004B7BCC /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				074D44EE13AB9B98004B7BCC /* DescriptionRunner.h */,
+				074D44EF13AB9B98004B7BCC /* Example.h */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -111,6 +221,24 @@
 			name = HelloWorld;
 			productName = HelloWorld;
 			productReference = 074D449E13AB7B19004B7BCC /* HelloWorld.app */;
+			productType = "com.apple.product-type.application";
+		};
+		074D44BF13AB9957004B7BCC /* Specs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 074D44D413AB9957004B7BCC /* Build configuration list for PBXNativeTarget "Specs" */;
+			buildPhases = (
+				074D44BC13AB9957004B7BCC /* Sources */,
+				074D44BD13AB9957004B7BCC /* Frameworks */,
+				074D44BE13AB9957004B7BCC /* Resources */,
+				074D44FD13AB9CBF004B7BCC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Specs;
+			productName = Specs;
+			productReference = 074D44C013AB9957004B7BCC /* Specs.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -134,6 +262,7 @@
 			projectRoot = "";
 			targets = (
 				074D449D13AB7B19004B7BCC /* HelloWorld */,
+				074D44BF13AB9957004B7BCC /* Specs */,
 			);
 		};
 /* End PBXProject section */
@@ -148,7 +277,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		074D44BE13AB9957004B7BCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074D44F913AB9B98004B7BCC /* RunIPhoneUnitTest.sh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		074D44FD13AB9CBF004B7BCC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ./OCDSpec/OCDSpec/Programs/RunIPhoneUnitTest.sh;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		074D449A13AB7B19004B7BCC /* Sources */ = {
@@ -157,6 +310,22 @@
 			files = (
 				074D44B013AB7B19004B7BCC /* main.m in Sources */,
 				074D44B313AB7B19004B7BCC /* HelloWorldAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		074D44BC13AB9957004B7BCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074D44F013AB9B98004B7BCC /* OCDSpecDescription.m in Sources */,
+				074D44F113AB9B98004B7BCC /* OCDSpecDescriptionRunner.m in Sources */,
+				074D44F213AB9B98004B7BCC /* OCDSpecExample.m in Sources */,
+				074D44F313AB9B98004B7BCC /* OCDSpecExpectation.m in Sources */,
+				074D44F413AB9B98004B7BCC /* OCDSpecFail.m in Sources */,
+				074D44F513AB9B98004B7BCC /* OCDSpecOutputter+RedirectOutput.m in Sources */,
+				074D44F613AB9B98004B7BCC /* OCDSpecOutputter.m in Sources */,
+				074D44F713AB9B98004B7BCC /* OCDSpecSharedResults.m in Sources */,
+				074D44FA13AB9B98004B7BCC /* unitTestMain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +411,38 @@
 			};
 			name = Release;
 		};
+		074D44D513AB9957004B7BCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "${SDKROOT}/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h";
+				HEADER_SEARCH_PATHS = "${SRCROOT}/OCDSpec";
+				INFOPLIST_FILE = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		074D44D613AB9957004B7BCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "${SDKROOT}/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h";
+				HEADER_SEARCH_PATHS = "${SRCROOT}/OCDSpec";
+				INFOPLIST_FILE = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -259,6 +460,14 @@
 			buildConfigurations = (
 				074D44BA13AB7B19004B7BCC /* Debug */,
 				074D44BB13AB7B19004B7BCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		074D44D413AB9957004B7BCC /* Build configuration list for PBXNativeTarget "Specs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				074D44D513AB9957004B7BCC /* Debug */,
+				074D44D613AB9957004B7BCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
