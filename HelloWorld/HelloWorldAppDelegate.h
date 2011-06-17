@@ -7,11 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AlertFactory.h"
 
-@interface HelloWorldAppDelegate : NSObject <UIApplicationDelegate> {
-
+@interface HelloWorldAppDelegate : NSObject <UIApplicationDelegate, UITextFieldDelegate> {
+    UITextField *message;
+    UILabel     *voice;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic, retain) IBOutlet UITextField *message;
+@property (nonatomic, retain) IBOutlet UILabel *voice;
+-(IBAction) say;
 
 @end

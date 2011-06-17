@@ -12,6 +12,7 @@
 
 
 @synthesize window=_window;
+@synthesize message, voice;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
@@ -57,6 +58,18 @@
      Save data if appropriate.
      See also applicationDidEnterBackground:.
      */
+}
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    [textField resignFirstResponder];
+    
+    return YES;
+}
+
+-(IBAction) say
+{
+    voice.text = message.text;
 }
 
 - (void)dealloc
