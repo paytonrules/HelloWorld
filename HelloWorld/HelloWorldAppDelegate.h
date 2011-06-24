@@ -10,13 +10,15 @@
 #import "AlertFactory.h"
 
 @interface HelloWorldAppDelegate : NSObject <UIApplicationDelegate, UITextFieldDelegate> {
-    UITextField *message;
-    UILabel     *voice;
+    UITextField *integerField;
+    UILabel     *resultField;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) IBOutlet UITextField *message;
-@property (nonatomic, retain) IBOutlet UILabel *voice;
--(IBAction) say;
+@property (nonatomic, retain) IBOutlet UITextField *integerField;
+@property (nonatomic, retain) IBOutlet UILabel *resultField;
+-(IBAction) generatePrimes;
 
 @end
+
+

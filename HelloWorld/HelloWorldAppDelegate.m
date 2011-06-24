@@ -7,12 +7,13 @@
 //
 
 #import "HelloWorldAppDelegate.h"
+#import "PrimeFactors.h"
 
 @implementation HelloWorldAppDelegate
 
 
 @synthesize window=_window;
-@synthesize message, voice;
+@synthesize integerField, resultField;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
@@ -60,22 +61,21 @@
      */
 }
 
-- (BOOL)textFieldShouldReturn:(UITextField *)textField
-{
-    [textField resignFirstResponder];
-    
-    return YES;
-}
-
--(IBAction) say
-{
-    voice.text = message.text;
-}
-
 - (void)dealloc
 {
     [_window release];
     [super dealloc];
+}
+
+-(IBAction) generatePrimes
+{
+    NSArray *factors = [PrimeFactors of:[integerField.text longLongValue]];
+    resultField.text = [factors description];
+    resultField.text = [resultField.text stringByReplacingOccurrencesOfString:@"(" withString:@""];
+    resultField.text = [resultField.text stringByReplacingOccurrencesOfString:@")" withString:@""];
+    resultField.text = [resultField.text stringByReplacingOccurrencesOfString:@"\n" withString:@""];
+    resultField.text = [resultField.text stringByReplacingOccurrencesOfString:@" " withString:@""];
+    [integerField resignFirstResponder];
 }
 
 @end

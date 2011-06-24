@@ -27,7 +27,10 @@
 		074D44F913AB9B98004B7BCC /* RunIPhoneUnitTest.sh in Resources */ = {isa = PBXBuildFile; fileRef = 074D44EB13AB9B98004B7BCC /* RunIPhoneUnitTest.sh */; };
 		074D44FA13AB9B98004B7BCC /* unitTestMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 074D44EC13AB9B98004B7BCC /* unitTestMain.m */; };
 		074D451713ABAD08004B7BCC /* HelloWorldAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 074D44B213AB7B19004B7BCC /* HelloWorldAppDelegate.m */; };
-		074D451A13ABAD99004B7BCC /* HelloWorldAppDelegateSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 074D451913ABAD99004B7BCC /* HelloWorldAppDelegateSpec.m */; };
+		078D5E0713ABD032001F2B15 /* HelloWorldAppDelegateSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 078D5E0613ABD032001F2B15 /* HelloWorldAppDelegateSpec.m */; };
+		078D5E0A13ABE06D001F2B15 /* PrimeFactorsSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 078D5E0913ABE06D001F2B15 /* PrimeFactorsSpec.m */; };
+		078D5E0D13ABE333001F2B15 /* PrimeFactors.m in Sources */ = {isa = PBXBuildFile; fileRef = 078D5E0C13ABE333001F2B15 /* PrimeFactors.m */; };
+		078D5E0E13ABE333001F2B15 /* PrimeFactors.m in Sources */ = {isa = PBXBuildFile; fileRef = 078D5E0C13ABE333001F2B15 /* PrimeFactors.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,9 +69,11 @@
 		074D44EE13AB9B98004B7BCC /* DescriptionRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DescriptionRunner.h; sourceTree = "<group>"; };
 		074D44EF13AB9B98004B7BCC /* Example.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example.h; sourceTree = "<group>"; };
 		074D44FB13AB9C09004B7BCC /* unitTestMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = unitTestMain.m; path = Programs/unitTestMain.m; sourceTree = "<group>"; };
-		074D451313ABA855004B7BCC /* HelloWorldAppDelegateSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HelloWorldAppDelegateSpec.m; path = ../HelloWorld/HelloWorldAppDelegateSpec.m; sourceTree = "<group>"; };
 		074D451513ABAB65004B7BCC /* AlertFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertFactory.h; sourceTree = "<group>"; };
-		074D451913ABAD99004B7BCC /* HelloWorldAppDelegateSpec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HelloWorldAppDelegateSpec.m; path = HelloWorld/HelloWorldAppDelegateSpec.m; sourceTree = "<group>"; };
+		078D5E0613ABD032001F2B15 /* HelloWorldAppDelegateSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HelloWorldAppDelegateSpec.m; path = HelloWorld/HelloWorldAppDelegateSpec.m; sourceTree = "<group>"; };
+		078D5E0913ABE06D001F2B15 /* PrimeFactorsSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PrimeFactorsSpec.m; path = HelloWorld/PrimeFactorsSpec.m; sourceTree = "<group>"; };
+		078D5E0B13ABE333001F2B15 /* PrimeFactors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrimeFactors.h; sourceTree = "<group>"; };
+		078D5E0C13ABE333001F2B15 /* PrimeFactors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrimeFactors.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +102,8 @@
 		074D449313AB7B18004B7BCC = {
 			isa = PBXGroup;
 			children = (
-				074D451913ABAD99004B7BCC /* HelloWorldAppDelegateSpec.m */,
+				078D5E0613ABD032001F2B15 /* HelloWorldAppDelegateSpec.m */,
+				078D5E0913ABE06D001F2B15 /* PrimeFactorsSpec.m */,
 				074D44A813AB7B19004B7BCC /* HelloWorld */,
 				074D44C513AB9957004B7BCC /* Specs */,
 				074D44A113AB7B19004B7BCC /* Frameworks */,
@@ -132,6 +138,8 @@
 				074D44B213AB7B19004B7BCC /* HelloWorldAppDelegate.m */,
 				074D44B413AB7B19004B7BCC /* MainWindow.xib */,
 				074D44A913AB7B19004B7BCC /* Supporting Files */,
+				078D5E0B13ABE333001F2B15 /* PrimeFactors.h */,
+				078D5E0C13ABE333001F2B15 /* PrimeFactors.m */,
 			);
 			path = HelloWorld;
 			sourceTree = "<group>";
@@ -150,7 +158,6 @@
 		074D44C513AB9957004B7BCC /* Specs */ = {
 			isa = PBXGroup;
 			children = (
-				074D451313ABA855004B7BCC /* HelloWorldAppDelegateSpec.m */,
 				074D44D713AB9B98004B7BCC /* OCDSpec */,
 				074D44C613AB9957004B7BCC /* Supporting Files */,
 			);
@@ -318,6 +325,7 @@
 			files = (
 				074D44B013AB7B19004B7BCC /* main.m in Sources */,
 				074D44B313AB7B19004B7BCC /* HelloWorldAppDelegate.m in Sources */,
+				078D5E0D13ABE333001F2B15 /* PrimeFactors.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,7 +333,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				074D451A13ABAD99004B7BCC /* HelloWorldAppDelegateSpec.m in Sources */,
 				074D44F013AB9B98004B7BCC /* OCDSpecDescription.m in Sources */,
 				074D44F113AB9B98004B7BCC /* OCDSpecDescriptionRunner.m in Sources */,
 				074D44F213AB9B98004B7BCC /* OCDSpecExample.m in Sources */,
@@ -336,6 +343,9 @@
 				074D44F713AB9B98004B7BCC /* OCDSpecSharedResults.m in Sources */,
 				074D44FA13AB9B98004B7BCC /* unitTestMain.m in Sources */,
 				074D451713ABAD08004B7BCC /* HelloWorldAppDelegate.m in Sources */,
+				078D5E0713ABD032001F2B15 /* HelloWorldAppDelegateSpec.m in Sources */,
+				078D5E0A13ABE06D001F2B15 /* PrimeFactorsSpec.m in Sources */,
+				078D5E0E13ABE333001F2B15 /* PrimeFactors.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,6 +482,7 @@
 				074D44BB13AB7B19004B7BCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		074D44D413AB9957004B7BCC /* Build configuration list for PBXNativeTarget "Specs" */ = {
 			isa = XCConfigurationList;
@@ -480,6 +491,7 @@
 				074D44D613AB9957004B7BCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
